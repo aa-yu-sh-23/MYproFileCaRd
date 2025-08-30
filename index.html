@@ -1,84 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laundry Wala</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesomes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-    <header><h1>Welcome to Laundry Wallah / Laundry Mart.</h1></header>
-    
-    <p>Laundry Wala is your trusted partner for all laundry and dry cleaning needs. We offer convenient, affordable, and high-quality laundry services, ensuring your clothes are fresh, clean, and well cared for. Experience hassle-free laundry with our quick pickup and delivery options.</p>
+    <div class="profile-card">
+        <div class="img">
+            <img src="profile.jpg" alt="" class="profile-img">
+        </div>
 
-    <img src="Dry-Cleaners-1.jpg" alt="" height="300px">
+        <div class="text-data">
+            <span class="name">Ayush Rawat</span>
+            <span class="career">Web developer & learner</span>
+        </div>
 
-    <h2>Our Services</h2>
-
-    <ul>
-        <li>Wash & Fold</li>
-        <li>Dry Cleaning</li>
-        <li>Ironing Services</li>
-        <li>Pickup & Delivery</li>
-        <li>Special Care for Delicates</li>
- 
-    </ul>
-
-    <h2>Price list</h2>
-
-    <table border="2">
-        <tr>
-            <th>Service</th>
-            <th>Price</th>
-        </tr>
-        <tr>
-            <td>Wash & Fold (per lb)</td>
-            <td>$1.50</td>
-        </tr>
-        <tr>
-            <td>Dry Cleaning (per item)</td>
-            <td>$5.00</td>
-        </tr>
-        <tr>
-            <td>Ironing (per item)</td>
-            <td>$2.00</td>
-        </tr>
-        <tr>
-            <td>Pickup & Delivery</td>
-            <td>Free (within 5 miles)</td>
-        </tr>
-
-    </table>
-
-    <h2>Book now</h2>
-
-    <form action="submit_form.php" method="post">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
-
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="mobile no.">mobile no.:</label><br>
-          <input type="number"  ><br><br>
-
-        <label for="service">Select Service:</label><br>
-        <select id="service" name="service" required>
-            <option value="wash_fold">Wash & Fold</option>
-            <option value="dry_cleaning">Dry Cleaning</option>
-            <option value="ironing">Ironing</option>
-        </select><br><br>
-
-        <label for="pickup_date">Pickup Date:</label><br>
-        <input type="date" id="pickup_date" name="pickup_date" required><br><br>
-
-        <input type="submit" value="Book Now">
-
-    </form>
-
-    <footer>
-        <p>contact us at: info@laundrymart.com</p>
-        <p>&copy; 2024 Laundry Wala. All rights reserved.</p>
-
-    </footer>
+        <div class="media-button">
+            <a href="https://www.linkedin.com/in/ayush-rawat-896274322/" class="link">
+                <i class='bx bxl-linkedin'></i>
+            </a>
+            <a href="https://x.com/AyushRawat23" style="background: black" class="link">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/ayush_rawat_23/" style="background: #e1306c" class="link">
+                <i class='bx bxl-instagram'></i>
+            </a>
+            <a href="https://github.com/aa-yu-sh-23" style="background: rgb(0, 0, 0)" class="link">
+                <i class='bx bxl-github'></i>
+            </a>
+        </div>
+        <div class="buttons">
+            <button class="button">follow</button>
+            <button class="button">Message</button>
+        </div>
+        <div class="analytics">
+            <div class="data">
+                <i class='bx bx-heart'></i>
+                <span class="number">60k</span>
+            </div>
+            <div class="data">
+                <i class='bx bx-message-rounded'></i>
+                <span class="number">20k</span>
+            </div>
+            <div class="data">
+                <i class='bx bx-share'></i>
+                <span class="number">12k</span>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
